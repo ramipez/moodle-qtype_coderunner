@@ -668,7 +668,7 @@ a pushdown automaton (PDA) using the Graph UI in FSM mode.</p>
 read from input, <code>s</code> is the symbol read from the top of stack,
 and <code>abc</code> is the word pushed to stack. Use <code>lambda</code>
 for empty read/pop/push. Examples:
-<code>a,Z/AZ</code>, <code>b,A/lambda</code>, <code>lambda,Z/Z</code>.</p>
+<code>a,#/A#</code>, <code>b,A/lambda</code>, <code>lambda,#/#</code>.</p>
 <h4>Template helpers</h4>
 <p>The template exposes <code>transitions</code>, <code>start_states</code>,
 <code>accept_states</code>, <code>accepts(word)</code> and
