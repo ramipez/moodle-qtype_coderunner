@@ -676,7 +676,7 @@ for empty read/pop/push. Examples:
 grade behavior directly with hidden test strings.</p>
 <h4>Template parameters</h4>
 <p><b>acceptance_mode</b>: <i>final_state</i>, <i>empty_stack</i> or <i>both</i>.
-<b>epsilon_symbol</b>: default <i>lambda</i>. <b>bottom_marker</b>: default <i>$</i>.</p>';
+<b>epsilon_symbol</b>: default <i>lambda</i>. <b>bottom_marker</b>: default <i>#</i>.</p>';
 
 $string['qtype_java_class'] = '<p>A Java write-a-class question, where the student submits a
 complete class as their answer. Each test will  typically instantiate an object of the specified

@@ -439,8 +439,7 @@ from collections import deque
 
 student_answer = """{{ STUDENT_ANSWER | e('py') }}"""
 SEPARATOR = "#<ab@17943918#@>#"
-
-BOTTOM = '$'
+BOTTOM = '#'
 EPSILON = 'lambda'
 ACCEPTANCE = 'final_state'
 
@@ -603,12 +602,12 @@ print(SEPARATOR)
     <cputimelimitsecs></cputimelimitsecs>
     <memlimitmb></memlimitmb>
     <sandboxparams></sandboxparams>
-    <templateparams><![CDATA[{"extra":"posttest","acceptance_mode":"final_state","epsilon_symbol":"lambda","bottom_marker":"$"}]]></templateparams>
+    <templateparams><![CDATA[{"extra":"posttest","acceptance_mode":"final_state","epsilon_symbol":"lambda","bottom_marker":"#"}]]></templateparams>
     <hoisttemplateparams>1</hoisttemplateparams>
     <extractcodefromjson>1</extractcodefromjson>
     <templateparamslang>twig</templateparamslang>
     <templateparamsevalpertry>0</templateparamsevalpertry>
-    <templateparamsevald><![CDATA[{"extra":"posttest","acceptance_mode":"final_state","epsilon_symbol":"lambda","bottom_marker":"$"}]]></templateparamsevald>
+    <templateparamsevald><![CDATA[{"extra":"posttest","acceptance_mode":"final_state","epsilon_symbol":"lambda","bottom_marker":"#"}]]></templateparamsevald>
     <twigall>0</twigall>
     <uiplugin>graph</uiplugin>
     <uiparameters><![CDATA[{"isdirected": true, "isfsm": true}]]></uiparameters>
