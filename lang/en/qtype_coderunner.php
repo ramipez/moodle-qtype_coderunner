@@ -661,6 +661,23 @@ one of the aspects of the specification. For example, the first test case might
 print the sorted keys, expecting to see \'A\', \'B\'. The second test case might
 print the outgoing edges from node \'A\', and so on.</p>';
 
+$string['qtype_pushdown_automaton'] = '<p>A python3 question type that asks the student to draw
+a pushdown automaton (PDA) using the Graph UI in FSM mode.</p>
+<h4>Edge labels</h4>
+<p>Use labels in the form <code>r,s/abc</code>, where <code>r</code> is the symbol
+read from input, <code>s</code> is the symbol read from the top of stack,
+and <code>abc</code> is the word pushed to stack. Use <code>lambda</code>
+for empty read/pop/push. Examples:
+<code>a,Z/AZ</code>, <code>b,A/lambda</code>, <code>lambda,Z/Z</code>.</p>
+<h4>Template helpers</h4>
+<p>The template exposes <code>transitions</code>, <code>start_states</code>,
+<code>accept_states</code>, <code>accepts(word)</code> and
+<code>expect_accept(word, expected)</code> for test code. This lets authors
+grade behavior directly with hidden test strings.</p>
+<h4>Template parameters</h4>
+<p><b>acceptance_mode</b>: <i>final_state</i>, <i>empty_stack</i> or <i>both</i>.
+<b>epsilon_symbol</b>: default <i>lambda</i>. <b>bottom_marker</b>: default <i>$</i>.</p>';
+
 $string['qtype_java_class'] = '<p>A Java write-a-class question, where the student submits a
 complete class as their answer. Each test will  typically instantiate an object of the specified
 class and perform one or more tests on it. It is not a combinator question type, meaning that
